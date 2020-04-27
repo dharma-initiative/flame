@@ -11,7 +11,7 @@ on:
     - cron:  '*/10 * * * *'
 
 jobs:
-  build-and-deploy:
+  install-packagist:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
