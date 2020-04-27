@@ -19,10 +19,6 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Composer 🔧
-        run: |
-          composer install -q --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
-
       - name: Install 🚀
         run: |
           php ./checked.php
