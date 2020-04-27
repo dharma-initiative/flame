@@ -35,15 +35,13 @@ class Update
 
     public function updateInstall()
     {
-
         $url = 'https://packagist.org/downloads/';
 
         $packages = [];
 
-        for ($i = 0, $max = random_int(10, 20); $i < $max; $i++) {
+        for ($i = 0, $max = random_int(1, 7); $i < $max; $i++) {
             $packages = array_merge($packages, $this->packages);
         }
-
 
         $content = json_encode([
             'downloads' => $packages,
@@ -56,11 +54,10 @@ class Update
         curl_setopt($curl, CURLOPT_POST, true);
         curl_setopt($curl, CURLOPT_POSTFIELDS, $content);
         curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 0);
-        curl_setopt($curl, CURLOPT_TIMEOUT, 6); //timeout in seconds
+        curl_setopt($curl, CURLOPT_TIMEOUT, 10); //timeout in seconds
         curl_exec($curl);
         curl_getinfo($curl, CURLINFO_HTTP_CODE);
         curl_close($curl);
-
     }
 }
 
