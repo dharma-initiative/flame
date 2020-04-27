@@ -15,10 +15,10 @@ class Update
             'name'    => 'orchid/experiment',
             'version' => '2.2.0.0',
         ],
-        [
-            'name'    => 'orchid/platform',
-            'version' => '7.1.0.0',
-        ],
+        //[
+        //    'name'    => 'orchid/platform',
+        //    'version' => '7.1.0.0',
+        //],
         [
             'name'    => 'tabuna/breadcrumbs',
             'version' => '1.0.0.0',
