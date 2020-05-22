@@ -17,11 +17,11 @@ class Update
         ],
         [
             'name'    => 'orchid/platform',
-            'version' => '7.1.0.0',
+            'version' => '7.5.0.0',
         ],
         [
             'name'    => 'tabuna/breadcrumbs',
-            'version' => '1.0.0.0',
+            'version' => '1.0.1.0',
         ],
     ];
 
