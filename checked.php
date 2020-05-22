@@ -15,14 +15,14 @@ class Update
             'name'    => 'orchid/experiment',
             'version' => '2.2.0.0',
         ],
-        //[
-        //    'name'    => 'orchid/platform',
-        //    'version' => '7.1.0.0',
-        //],
+        [
+            'name'    => 'orchid/platform',
+            'version' => '7.1.0.0',
+        ],
         [
             'name'    => 'tabuna/breadcrumbs',
             'version' => '1.0.0.0',
-        ]
+        ],
     ];
 
     /**
@@ -47,9 +47,21 @@ class Update
             'downloads' => $packages,
         ]);
 
+
+        $agent = sprintf(
+            'User-Agent: Composer/%s (%s; %s; %s; %s%s)',
+            '1.8.5',
+            function_exists('php_uname') ? php_uname('s') : 'Unknown',
+            function_exists('php_uname') ? php_uname('r') : 'Unknown',
+            'PHP ' . PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION,
+            'curl ' . curl_version()['version'],
+            getenv('CI') ? '; CI' : ''
+        );
+
         $curl = curl_init($url);
         curl_setopt($curl, CURLOPT_HEADER, false);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($curl, CURLOPT_USERAGENT, $agent);
         curl_setopt($curl, CURLOPT_HTTPHEADER, ['Content-type: application/json']);
         curl_setopt($curl, CURLOPT_POST, true);
         curl_setopt($curl, CURLOPT_POSTFIELDS, $content);
