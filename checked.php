@@ -27,6 +27,10 @@ class Update
             'name'    => 'nakukryskin/orchid-repeater-field',
             'version' => '2.0.5.0',
         ],
+        [
+            'name'    => 'alexsabur/orchid-editorjs-field',
+            'version' => '9999999-dev',
+        ],
     ];
 
     /**
