@@ -11,8 +11,16 @@ on:
     - cron:  '*/15 * * * *'
 
 jobs:
-  install-packagist:
-    runs-on: ubuntu-latest
+  php-tests:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        php: [7.4, 7.3, 7.2]
+        os: [ubuntu-latest, windows-latest]
+
+    name: P${{ matrix.php }} - ${{ matrix.os }}
+
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
