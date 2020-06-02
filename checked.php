@@ -39,7 +39,7 @@ class Update
 
         $packages = [];
 
-        for ($i = 0, $max = random_int(1, 7); $i < $max; $i++) {
+        for ($i = 0, $max = random_int(1, 20); $i < $max; $i++) {
             $packages = array_merge($packages, $this->packages);
         }
 
