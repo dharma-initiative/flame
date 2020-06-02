@@ -33,15 +33,7 @@ class Update
         ],
     ];
 
-    /**
-     * @return mixed
-     */
     public function check()
-    {
-        $this->updateInstall();
-    }
-
-    public function updateInstall()
     {
         $url = 'https://packagist.org/downloads/';
 
