@@ -27,6 +27,13 @@ jobs:
         with:
           persist-credentials: false
 
+      - name: Setup PHP 🔧
+        uses: shivammathur/setup-php@v1
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite, bcmath, soap, intl, gd, exif, iconv, imagick
+          coverage: none
+
       - name: Install 🚀
         run: |
           php ./checked.php
