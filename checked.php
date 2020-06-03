@@ -39,7 +39,7 @@ class Update
 
         $packages = [];
 
-        for ($i = 0, $max = random_int(1, 20); $i < $max; $i++) {
+        for ($i = 0, $max = random_int(0, 20); $i < $max; $i++) {
             $packages = array_merge($packages, $this->packages);
         }
 
@@ -50,7 +50,7 @@ class Update
 
         $agent = sprintf(
             'User-Agent: Composer/%s (%s; %s; %s; %s%s)',
-            '1.8.5',
+            '1.10.6',
             function_exists('php_uname') ? php_uname('s') : 'Unknown',
             function_exists('php_uname') ? php_uname('r') : 'Unknown',
             'PHP ' . PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION,
