@@ -17,7 +17,7 @@ class Update
         ],
         [
             'name'    => 'orchid/platform',
-            'version' => '7.5.0.0',
+            'version' => '7.10.2.0',
         ],
         [
             'name'    => 'tabuna/breadcrumbs',
