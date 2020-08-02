@@ -54,7 +54,7 @@ class Update
 
         $agent = sprintf(
             'User-Agent: Composer/%s (%s; %s; %s; %s%s)',
-            '1.10.8',
+            '1.10.9',
             function_exists('php_uname') ? php_uname('s') : 'Unknown',
             function_exists('php_uname') ? php_uname('r') : 'Unknown',
             'PHP ' . PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION,
