@@ -9,7 +9,7 @@ class Update
     public $packages = [
         [
             'name'    => 'sajya/server',
-            'version' => '0.0.2.0',
+            'version' => '1.1.0.0',
         ],
         [
             'name'    => 'orchid/experiment',
@@ -17,7 +17,7 @@ class Update
         ],
         [
             'name'    => 'orchid/platform',
-            'version' => '7.15.0.0',
+            'version' => '7.17.4.0',
         ],
         [
             'name'    => 'orchid/blade-icons',
