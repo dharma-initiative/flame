@@ -25,7 +25,7 @@ class Update
         ],
         [
             'name'    => 'tabuna/breadcrumbs',
-            'version' => '1.0.1.0',
+            'version' => '1.3.1.0',
         ],
         [
             'name'    => 'nakukryskin/orchid-repeater-field',
