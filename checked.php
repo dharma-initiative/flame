@@ -13,7 +13,7 @@ class Update
         ],
         [
             'name'    => 'orchid/experiment',
-            'version' => '2.2.0.0',
+            'version' => '2.3.0.0',
         ],
         [
             'name'    => 'orchid/platform',
@@ -25,7 +25,7 @@ class Update
         ],
         [
             'name'    => 'tabuna/breadcrumbs',
-            'version' => '1.3.1.0',
+            'version' => '2.0.0.0',
         ],
         [
             'name'    => 'nakukryskin/orchid-repeater-field',
@@ -34,6 +34,10 @@ class Update
         [
             'name'    => 'alexsabur/orchid-editorjs-field',
             'version' => '9999999-dev',
+        ],
+        [
+            'name'    => 'watson/active',
+            'version' => '5.0.0.0',
         ],
     ];
 
