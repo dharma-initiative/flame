@@ -36,10 +36,6 @@ class Update
             'version' => '3.0.1.0',
         ],
         [
-            'name'    => 'alexsabur/orchid-editorjs-field',
-            'version' => '9999999-dev',
-        ],
-        [
             'name'    => 'watson/active',
             'version' => '5.0.0.0',
         ],
