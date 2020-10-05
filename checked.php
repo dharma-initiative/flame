@@ -39,6 +39,10 @@ class Update
             'name'    => 'watson/active',
             'version' => '5.0.0.0',
         ],
+        [
+            'name'    => 'laravel/ui',
+            'version' => '3.0.0.0',
+        ],
     ];
 
     public function check()
