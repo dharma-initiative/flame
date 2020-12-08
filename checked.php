@@ -43,6 +43,10 @@ class Update
             'name'    => 'laravel/ui',
             'version' => '3.0.0.0',
         ],
+        [
+            'name'    => 'orchid/crud',
+            'version' => '1.0.0.0',
+        ],
     ];
 
     public function check()
