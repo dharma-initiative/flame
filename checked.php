@@ -17,11 +17,7 @@ class Update
         ],
         [
             'name'    => 'orchid/platform',
-            'version' => '7.17.4.0',
-        ],
-        [
-            'name'    => 'orchid/platform',
-            'version' => '8.0.0.0',
+            'version' => '9.14.0.0',
         ],
         [
             'name'    => 'orchid/blade-icons',
@@ -45,7 +41,7 @@ class Update
         ],
         [
             'name'    => 'orchid/crud',
-            'version' => '1.0.0.0',
+            'version' => '2.3.0.0',
         ],
     ];
 
