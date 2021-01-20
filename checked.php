@@ -43,6 +43,10 @@ class Update
             'name'    => 'orchid/crud',
             'version' => '2.3.0.0',
         ],
+        [
+            'name'    => 'sti3bas/laravel-scout-array-driver',
+            'version' => '2.2.0.0',
+        ],
     ];
 
     public function check()
