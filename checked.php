@@ -71,7 +71,7 @@ class Update
             function_exists('php_uname') ? php_uname('r') : 'Unknown',
             'PHP ' . PHP_MAJOR_VERSION . '.' . PHP_MINOR_VERSION . '.' . PHP_RELEASE_VERSION,
             'curl ' . curl_version()['version'],
-            getenv('CI') ? '; CI' : ''
+            ''
         );
 
         $curl = curl_init($url);
