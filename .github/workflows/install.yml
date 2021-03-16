@@ -37,8 +37,4 @@ jobs:
 
       - name: Install dependencies 🔧
         run: |
-          composer require "orchid/platform" --no-interaction --prefer-dist
-
-      - name: Install 🚀
-        run: |
-          php ./checked.php
+          composer require "orchid/crud" --no-interaction --prefer-dist
