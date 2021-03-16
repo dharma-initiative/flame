@@ -28,7 +28,7 @@ jobs:
           persist-credentials: false
 
       - name: Setup PHP 🔧
-        uses: shivammathur/setup-php@v1
+        uses: shivammathur/setup-php@v2
         with:
           php-version: ${{ matrix.php }}
           extensions: curl, fileinfo
