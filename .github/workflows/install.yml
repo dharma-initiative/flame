@@ -33,6 +33,11 @@ jobs:
           php-version: ${{ matrix.php }}
           extensions: curl
           coverage: none
+          tools: composer:v2
+
+      - name: Install dependencies 🔧
+        run: |
+          composer require "orchid/platform" --no-interaction --prefer-dist
 
       - name: Install 🚀
         run: |
