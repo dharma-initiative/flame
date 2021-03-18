@@ -44,4 +44,3 @@ jobs:
       - name: Install dependencies 🔧
         run: |
           composer require "orchid/crud" --no-interaction --prefer-dist
-          composer require "sajya/server" --no-interaction --prefer-dist
