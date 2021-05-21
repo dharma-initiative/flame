@@ -17,15 +17,7 @@ class Update
         ],
         [
             'name'    => 'orchid/platform',
-            'version' => '9.19.4.0',
-        ],
-        [
-            'name'    => 'orchid/blade-icons',
-            'version' => '1.0.0.0',
-        ],
-        [
-            'name'    => 'tabuna/breadcrumbs',
-            'version' => '2.0.0.0',
+            'version' => '10.4.2.0',
         ],
         [
             'name'    => 'nakukryskin/orchid-repeater-field',
