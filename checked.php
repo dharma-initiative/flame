@@ -17,7 +17,7 @@ class Update
         ],
         [
             'name'    => 'orchid/platform',
-            'version' => '10.4.2.0',
+            'version' => '10.5.2.0',
         ],
         [
             'name'    => 'nakukryskin/orchid-repeater-field',
