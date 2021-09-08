@@ -1,0 +1,40 @@
+name: Install Cagilo
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  schedule:
+    - cron:  '*/5 * * * *'
+
+jobs:
+  php-tests:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        php: [8.0]
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    name: P${{ matrix.php }} - ${{ matrix.os }}
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          
+      - name: Setup PHP 🔧
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          extensions: curl, fileinfo
+          coverage: none
+          tools: composer:v2
+
+      - name: Install dependencies 🔧
+        run: |
+          composer require "cagilo/cagilo" --no-interaction --prefer-dist
