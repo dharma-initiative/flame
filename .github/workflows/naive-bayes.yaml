@@ -1,4 +1,4 @@
-name: Install naive-bayes
+name: Install assisted-mindfulness
 
 on:
   push:
@@ -38,3 +38,5 @@ jobs:
       - name: Install dependencies 🔧
         run: |
           composer require "assisted-mindfulness/naive-bayes" --no-interaction --prefer-dist
+          composer require "assisted-mindfulness/browsershot" --no-interaction --prefer-dist
+          composer require "assisted-mindfulness/memento" --no-interaction --prefer-dist
