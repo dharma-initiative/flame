@@ -1,4 +1,4 @@
-name: Install Cagilo
+name: Install Laravel UI
 
 on:
   push:
