@@ -38,3 +38,4 @@ jobs:
       - name: Install dependencies 🔧
         run: |
           composer require "sajya/server" --no-interaction --prefer-dist
+          composer require "sajya/client" --no-interaction --prefer-dist
