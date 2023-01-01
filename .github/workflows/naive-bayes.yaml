@@ -41,5 +41,4 @@ jobs:
           composer require "assisted-mindfulness/browsershot" --no-interaction --prefer-dist
           composer require "assisted-mindfulness/memento" --no-interaction --prefer-dist
           composer require "motomedialab/laravel-vite-helper" --no-interaction --prefer-dist
-          composer require "lorisleiva/laravel-actions" --no-interaction --prefer-dist
           
