@@ -42,5 +42,6 @@ jobs:
           composer require "esplora/memento" --no-interaction --prefer-dist
           composer require "motomedialab/laravel-vite-helper" --no-interaction --prefer-dist
           composer require "assisted-mindfulness/bayesian-average" --no-interaction --prefer-dist
-
+          composer require "esplora/next-value-predictor" --no-interaction --prefer-dist
+          composer require "esplora/similar" --no-interaction --prefer-dist
           
