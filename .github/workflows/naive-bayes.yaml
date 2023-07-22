@@ -38,20 +38,11 @@ jobs:
       - name: Install dependencies 🔧
         run: |
           composer require "assisted-mindfulness/naive-bayes" --no-interaction --prefer-dist
-          composer remove "assisted-mindfulness/naive-bayes"
           composer require "assisted-mindfulness/browsershot" --no-interaction --prefer-dist
-          composer remove "assisted-mindfulness/browsershot"
           composer require "esplora/memento" --no-interaction --prefer-dist
-          composer remove "esplora/memento"
           composer require "motomedialab/laravel-vite-helper" --no-interaction --prefer-dist
-          composer remove "motomedialab/laravel-vite-helper"
           composer require "assisted-mindfulness/bayesian-average" --no-interaction --prefer-dist
-          composer remove "assisted-mindfulness/bayesian-average"
           composer require "esplora/next-value-predictor" --no-interaction --prefer-dist
-          composer remove "esplora/next-value-predictor"
           composer require "esplora/similar" --no-interaction --prefer-dist
-          composer remove "esplora/similar"
-          composer require "esplora/auto-login" --no-interaction --prefer-dist
-          composer remove "esplora/auto-login"
           
           
