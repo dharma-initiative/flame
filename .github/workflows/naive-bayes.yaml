@@ -44,6 +44,6 @@ jobs:
           composer require "assisted-mindfulness/bayesian-average" --no-interaction --prefer-dist
           composer require "esplora/next-value-predictor" --no-interaction --prefer-dist
           composer require "esplora/similar" --no-interaction --prefer-dist
-          composer require "esplora/auto-login" --no-interaction --prefer-dist -W
-          composer require "esplora/serenade" --no-interaction --prefer-dist -W
+          #composer require "esplora/auto-login" --no-interaction --prefer-dist -W
+          #composer require "esplora/serenade" --no-interaction --prefer-dist -W
           composer require "esplora/next-value-predictor" --no-interaction --prefer-dist -W
