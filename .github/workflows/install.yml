@@ -28,7 +28,7 @@ jobs:
           persist-credentials: false
           
       - name: Cache dependencies 🔧
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: ~/.composer/cache/files
           key: dependencies-laravel-php-${{ matrix.php }}-composer-${{ hashFiles('composer.json') }}
