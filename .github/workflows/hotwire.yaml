@@ -38,3 +38,4 @@ jobs:
       - name: Install dependencies 🔧
         run: |
           composer require "hotwired-laravel/turbo-laravel" --no-interaction --prefer-dist
+          composer require "tonysm/importmap-laravel" --no-interaction --prefer-dist
