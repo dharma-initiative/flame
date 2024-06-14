@@ -44,4 +44,3 @@ jobs:
       - name: Install dependencies 🔧
         run: |
           composer require "orchid/crud" --no-interaction --prefer-dist
-          composer require "czernika/orchid-image-components" --no-interaction --prefer-dist --ignore-platform-reqs --with-all-dependencies
