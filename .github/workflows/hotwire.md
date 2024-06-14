@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        php: [8.2, 8.1]
+        php: [8.3, 8.2, 8.1]
         os: [ubuntu-latest, windows-latest, macos-latest]
 
     name: P${{ matrix.php }} - ${{ matrix.os }}
@@ -37,4 +37,4 @@ jobs:
 
       - name: Install dependencies 🔧
         run: |
-          composer require "hotwired/turbo-laravel" --no-interaction --prefer-dist
+          composer require "hotwired-laravel/turbo-laravel" --no-interaction --prefer-dist
