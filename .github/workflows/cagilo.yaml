@@ -1,5 +1,6 @@
 name: Install Cagilo
 
+
 on:
   push:
     branches:
