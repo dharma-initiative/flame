@@ -1,4 +1,4 @@
-name: Install Packagist
+name: Install Packagist 2
 
 on:
   push:
