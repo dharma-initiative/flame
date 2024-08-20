@@ -47,3 +47,4 @@ jobs:
           #composer require "esplora/auto-login" --no-interaction --prefer-dist -W
           #composer require "esplora/serenade" --no-interaction --prefer-dist -W
           composer require "esplora/next-value-predictor" --no-interaction --prefer-dist -W
+          composer require "esplora/decompresso" --no-interaction --prefer-dist -W
